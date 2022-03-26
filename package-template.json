@@ -1,0 +1,23 @@
+{
+  "name": "toolchain-gccarmnoneeabi",
+  "version": "1.{V_MAJ}{V_MIN}{V_PATCH}.{VY}{VM}{VD}",
+  "description": "GNU toolchain for Arm Cortex-M and Cortex-R processors",
+  "keywords": [
+    "toolchain",
+    "build tools",
+    "compiler",
+    "assembler",
+    "linker",
+    "preprocessor",
+    "arm"
+  ],
+  "homepage": "https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm",
+  "license": "GPL-2.0-or-later",
+  "system": [
+    {SYSTEM}
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flaviut/platformio-gcc-arm-none-packaging"
+  }
+}
